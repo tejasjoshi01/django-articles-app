@@ -7,3 +7,6 @@ class ArticleSerializer(ModelSerializer):
           fields = ('id', 'title', 'sub_title', 'content')
 
 
+
+
+

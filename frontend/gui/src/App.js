@@ -22,8 +22,8 @@ function App(props) {
   return (
     <div >
       <BrowserRouter>
-        <CustomLayout {...props} > 
-          <BaseRouter />
+        <CustomLayout {...props}> 
+          <BaseRouter {...props}/>
         </CustomLayout>
       </BrowserRouter>
     </div>
